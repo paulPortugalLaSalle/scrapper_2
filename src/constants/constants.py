@@ -1,0 +1,1 @@
+SEACE_URL = "https://prodapp2.seace.gob.pe/seacebus-uiwd-pub/buscadorPublico/buscadorPublico.xhtml"

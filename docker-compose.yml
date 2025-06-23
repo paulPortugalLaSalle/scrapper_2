@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://mainUser:contraseña@db:1q2w3e/test_scrapper_DB
+    depends_on:
+      - db
+    volumes:
+      - .:/app
+    privileged: true
+
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=mainUser
+      - POSTGRES_PASSWORD=1q2w3e
+      - POSTGRES_DB=test_scrapper_DB
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

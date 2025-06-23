@@ -1,0 +1,36 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de distribución/empaquetado
+dist/
+build/
+*.egg-info/
+
+# Archivos de registro y caché
+*.log
+.cache
+logs/
+
+# Archivos específicos del webdriver
+chromedriver
+geckodriver
+*.exe
+
+# Archivos temporales
+.DS_Store
+Thumbs.db

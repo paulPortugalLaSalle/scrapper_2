@@ -1,0 +1,12 @@
+SEARCH_BUTTON_ID = "tbBuscador:idFormBuscarProceso:btnBuscarSelToken"
+ADVANCED_SEARCH_BUTTON_CLASS = "ui-fieldset-content"
+INPUT_START_DATE_PUBLICATION_ID = "tbBuscador:idFormBuscarProceso:dfechaInicio_input"
+INPUT_END_DATE_PUBLICATION_ID = "tbBuscador:idFormBuscarProceso:dfechaFin_input"
+TABLE_FORM_SEARCH_ID = "tbBuscador:idFormBuscarProceso:dtProcesos_data"
+UI_DATATABLE_EVEN_CLASS = "ui-datatable-even"
+UI_GROWL_MESSAGE_CLASS = "ui-growl-message"
+UI_PAGINATOR_CURRENT_CLASS = "ui-paginator-current"
+UI_PAGINATOR_BOTTOM_ID = "tbBuscador:idFormBuscarProceso:dtProcesos_paginator_bottom"
+YEAR_LABEL = "tbBuscador:idFormBuscarProceso:anioConvocatoria_label"
+YEAR_PANEL = "tbBuscador:idFormBuscarProceso:anioConvocatoria_panel"
+TEXTFIELDS = [INPUT_START_DATE_PUBLICATION_ID, INPUT_END_DATE_PUBLICATION_ID]
