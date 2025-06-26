@@ -1,7 +1,7 @@
 from src.config.database import DatabaseSession
 
 
-class ItemOperations:
+class ParticipantOperations:
     def __init__(self):
         self.db = DatabaseSession
 

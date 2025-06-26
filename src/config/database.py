@@ -1,11 +1,13 @@
 from os import environ
 from contextlib import contextmanager
 
+from dotenv import load_dotenv
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import sessionmaker
-from typing import List
 
 from src.models.base import Base
+
+load_dotenv()
 
 DB_TEST_HOST = environ.get("DB_TEST_HOST")
 DB_TEST_PORT = environ.get("DB_TEST_PORT")

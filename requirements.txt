@@ -2,3 +2,5 @@ selenium==4.16.0
 webdriver_manager==4.0.1
 psycopg2-binary==2.9.10
 SQLAlchemy==2.0.41
+boto3==1.28.9
+boto3-type-annotations==0.3.1
